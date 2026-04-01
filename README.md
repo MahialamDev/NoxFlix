@@ -31,27 +31,22 @@
 
 Follow these steps to run the project locally:
 
+### 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/your-username/nox-flix.git](https://github.com/your-username/nox-flix.git)
 
-   Install dependencies:
+   npm install
 
-Bash
-npm install
-Run the development server:
-
-Bash
-npm run dev
-Open http://localhost:3000 in your browser to see the result.
-
-📁 Project Structure
-Plaintext
 ├── app/              # Next.js App Router (Pages, Layouts, API)
 ├── components/       # Reusable UI Components (Navbar, Footer, MovieCard)
 ├── lib/              # Local Data logic & Utils (movies.js)
 ├── public/           # Static assets (Images, Icons, Posters)
 └── styles/           # Global Tailwind CSS configurations
+
 🛠️ Deployment
 This project is optimized for the Vercel Platform. To deploy your own version:
 
