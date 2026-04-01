@@ -52,7 +52,7 @@ export default function UserInsights() {
 }, []);
 
   return (
-    <div className="mb-12 opacity-5">
+    <div className="mb-12 ">
       <h2 className="text-white font-bold text-xl mb-5 flex items-center gap-2">
         <span>📍</span> Your Network Info
       </h2>
