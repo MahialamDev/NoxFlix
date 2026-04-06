@@ -29,7 +29,8 @@ export default function RegisterPage() {
     if (form.password !== form.confirm) return alert("Passwords don't match!");
     if (!agreed) return alert("You must agree to the terms.");
     alert("Account created — connect your auth provider!"); 
-    // all ok
+    // all ok 
+    // line add
   }
 
   return (
